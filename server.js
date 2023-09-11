@@ -7,6 +7,8 @@ require('dotenv').config();
 // Connect to the database
 require('./config/database');
 
+// const mongoose = require('mongoose');
+
 const app = express();
 
 app.use(logger('dev'));
