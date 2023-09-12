@@ -24,10 +24,6 @@ export default function NewPostPage() {
     }
   }
 
-  async function deletePost(id) {
-    alert(`delete ${id}`);
-    await PostsAPI.deletedPost(id);
-  }
   return (
     <div>
       <h1>New Post</h1>
@@ -52,20 +48,12 @@ export default function NewPostPage() {
       {post ? (
         <div>
           <img src={post.imageURL} /> <p>{post.caption}</p>
+
         </div>
       ) : (
         ""
       )}
-      {/* Display Posts */}
-      {/* <div>
-        {posts.map((post, index) => (
-          <div key={index}>
-            <img src={post.imageURL} alt="Selected" width="300" height="300" />
-            <p>{post.caption}</p>
-            <button onClick={()=>(deletePost(post._id))}>Delete Post</button>
-          </div>
-        ))}
-      </div> */}
+
     </div>
   );
 }
