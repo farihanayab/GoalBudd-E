@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import * as PostsAPI from "../../utilities/post-api";
+import Form from 'react-bootstrap/Form';
 
 export default function NewPostPage() {
   const [imageURL, setimageURL] = useState("");
@@ -27,21 +28,21 @@ export default function NewPostPage() {
   return (
     <div>
       <h1>New Post</h1>
-
-      {/* Image URL Input */}
-      <input
-        type="text"
+      <Form>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="text"
         placeholder="Paste image URL here..."
         value={imageURL}
-        onChange={(evt) => setimageURL(evt.target.value)}
-      />
-
-      {/* Caption Input */}
-      <textarea
-        placeholder="Write a caption..."
+        onChange={(evt) => setimageURL(evt.target.value)} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Add Caption</Form.Label>
+        <Form.Control as="textarea" rows={3}  placeholder="Write a caption..."
         value={caption}
-        onChange={(evt) => setCaption(evt.target.value)}
-      />
+        onChange={(evt) => setCaption(evt.target.value)}/>
+      </Form.Group>
+    </Form>
 
       {/* Submit Button */}
       <button onClick={handleSubmit}>Upload Post</button>

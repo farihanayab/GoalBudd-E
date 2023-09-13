@@ -1,5 +1,6 @@
 import { checkToken } from "../../utilities/users-service";
 import { useState, useEffect } from "react";
+import Button from 'react-bootstrap/Button';
 import * as PostsAPI from "../../utilities/post-api";
 export default function MyPostsPage({ user }) {
   const [posts, setPosts] = useState([]);
@@ -60,7 +61,7 @@ export default function MyPostsPage({ user }) {
 
   return (
     <>
-      <h1>HomePage</h1>
+      <h1>Post Page</h1>
       <div>
         {posts.map((post, index) => (
           <div key={index}>
@@ -72,8 +73,10 @@ export default function MyPostsPage({ user }) {
                   value={post.caption}
                   onChange={(e) => handleCaptionChange(e, post._id)}
                 />
-                <button onClick={() => saveChanges(post._id)}>Save</button>
-                <button onClick={() => cancelEdit()}>Cancel</button>
+                {/* <button onClick={() => saveChanges(post._id)}>Save</button> */}
+                <Button onClick={() => saveChanges(post._id)} variant="warning">Edit Post</Button>{' '}
+                {/* <button onClick={() => cancelEdit()}>Cancel</button> */}
+                <Button onClick={() => cancelEdit()} variant="secondary">Cancel</Button>{' '}
               </div>
             ) : (
               // View mode
@@ -88,12 +91,9 @@ export default function MyPostsPage({ user }) {
                 {user._id === post.user ? (
                   <div>
                     {" "}
-                    <button onClick={() => editPost(post._id)}>
-                      Edit Post
-                    </button>
-                    <button onClick={() => deletePost(post._id)}>
-                      Delete Post
-                    </button>{" "}
+                    <Button onClick={() => editPost(post._id)} variant="warning">Edit Post</Button>{' '}
+                     
+                    <Button variant="secondary" onClick={() => deletePost(post._id)} >Delete</Button>{' '}
                   </div>
                 ) : (
                   ""
