@@ -1,4 +1,42 @@
-# MERN-Stack Infrastructure
+# GoalBudd-E
 
-Clone this repo to provide the starter code for a comprehensive MERN-Stack project including token-based authentication.
+Track Your Goals with Visual Inspiration!
 
+GoalBudd-E is a user-friendly goal-tracking app designed to help you achieve your dreams and aspirations. Whether you're working on personal development, fitness, travel, or any other life goal, GoalBudd-E makes the journey more enjoyable and motivating by allowing you to post your journey through images.
+
+
+
+# Screenshot
+
+<img src="url to your image on imgur">
+<img src="url to your image on imgur">
+
+# Technologies Used
+
+- React
+- MongoDB/Mongoose
+- Express
+- React
+- Node
+- JavaScript
+- HTML
+- CSS
+  
+
+# Getting Started
+
+Trello Board: https://trello.com/b/yNsMsWmj/project-4-goalbudd-e
+Heroku: 
+
+MVP Goals:
+-As an unregistered user, I would like to sign up with email and password.
+-As a registered user, I would like to sign in with email and password.
+-As a user, I would like to create, read, update and delete my posts.
+-As a registered user, I would like to caption my picture.
+
+# Next Steps
+
+- Future enhancement one: As a signed in user, I would like to see all my images on AWS.
+- Future enhancement two: As a signed in user, I would like to see the following data for any image: date created/uploaded date modified owner (user who uploaded the image) name.
+- Future enhancement three: As a signed in user, I would like to like other posts.
+- Future enhancement four: As a registered user, I would like to start challenges for others to join.
