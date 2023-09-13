@@ -8,7 +8,8 @@ GoalBudd-E is a user-friendly goal-tracking app designed to help you achieve you
 
 # Screenshot
 
-<img src="https://github.com/farihanayab/GoalBudd-E/assets/134460266/22693d05-d38e-463f-b274-d8f985addb0f">
+
+<img src="https://github.com/farihanayab/GoalBudd-E/assets/134460266/a9a6ead5-29e2-4f24-8c06-85a1a8d8a45c">
 
 <img src="https://github.com/farihanayab/GoalBudd-E/assets/134460266/d554de1d-0469-45ae-9d40-4a1d6e05fa1e">
 
