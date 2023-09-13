@@ -26,9 +26,10 @@ GoalBudd-E is a user-friendly goal-tracking app designed to help you achieve you
 # Getting Started
 
 Trello Board: https://trello.com/b/yNsMsWmj/project-4-goalbudd-e
-Heroku: 
+Heroku: https://shrouded-stream-37215-30233917d6a5.herokuapp.com/
 
 MVP Goals:
+
 -As an unregistered user, I would like to sign up with email and password.
 
 -As a registered user, I would like to sign in with email and password.
