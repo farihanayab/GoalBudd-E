@@ -30,8 +30,11 @@ Heroku:
 
 MVP Goals:
 -As an unregistered user, I would like to sign up with email and password.
+
 -As a registered user, I would like to sign in with email and password.
+
 -As a user, I would like to create, read, update and delete my posts.
+
 -As a registered user, I would like to caption my picture.
 
 # Next Steps
