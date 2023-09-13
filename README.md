@@ -10,7 +10,8 @@ GoalBudd-E is a user-friendly goal-tracking app designed to help you achieve you
 
 <img src="https://github.com/farihanayab/GoalBudd-E/assets/134460266/22693d05-d38e-463f-b274-d8f985addb0f">
 
-<img src="url to your image on imgur">
+<img src="https://github.com/farihanayab/GoalBudd-E/assets/134460266/d554de1d-0469-45ae-9d40-4a1d6e05fa1e">
+
 
 # Technologies Used
 
@@ -36,6 +37,7 @@ Heroku: https://shrouded-stream-37215-30233917d6a5.herokuapp.com/
 # Next Steps
 
 - Future enhancement one: As a signed in user, I would like to see all my images on AWS.
-- Future enhancement two: As a signed in user, I would like to see the following data for any image: date created/uploaded date modified owner (user who uploaded the image) name.
+- Future enhancement two: As a signed in user, I would like to see the following data for any image: date created/uploaded 
+  date modified owner (user who uploaded the image) name.
 - Future enhancement three: As a signed in user, I would like to like other posts.
 - Future enhancement four: As a registered user, I would like to start challenges for others to join.
